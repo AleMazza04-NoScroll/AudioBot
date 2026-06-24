@@ -1,0 +1,12 @@
+# Non caricare MAI le chiavi segrete su GitHub
+.env
+
+# Ambiente virtuale locale (non serve nel repository)
+venv/
+
+# File temporanei Python
+__pycache__/
+*.pyc
+
+# Modello vocale Piper (verrà scaricato automaticamente al primo avvio su Railway)
+voices/
